@@ -3,7 +3,10 @@
 This is a **Node.js + MySQL CRUD application** built with **Express.js** and **Docker**.\
 It supports **database operations, search functionality, and auto-deployment** using GitHub Actions.
 
----
+<!-- ## ![Image Description](./img/viewer.png) -->
+
+<img src="./img/viewer.png" alt="Viewer" width="400">
+<img src="./img/add.png" alt="Add data" width="400"><br>
 
 ## 📌 **Features**
 
