@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+.tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #ddd;
+    font-size: 16px;
+}
+.tab.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.content {
+    display: none;
+    padding: 20px;
+}
+.content.active {
+    display: block;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+.edit-input {
+    display: none;
+    width: 90%;
+}
