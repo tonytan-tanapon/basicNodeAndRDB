@@ -70,7 +70,9 @@ Create a `.env` file in the project root and add:
 ```
 📦 my-node-app
 ┣ 📂 public/            # Frontend (HTML, JS, CSS)
-┃ ┗ 📜 index.html       # Main HTML page
+  ┣ 📜 index.html       # Main HTML page
+  ┣ 📜 styles.css       # CSS
+  ┣ 📜 script.js        # script
 ┣ 📜 server.js          # Backend API (Express.js)
 ┣ 📜 Dockerfile         # Docker container configuration
 ┣ 📜 docker-compose.yml # Multi-container setup (MySQL + Node.js)
